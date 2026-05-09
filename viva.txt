@@ -1,0 +1,100 @@
+Machine Learning Lab (BCSL606) –Viva Questions with Answers
+PROGRAM 1 – Histograms and Boxplots (California Housing Dataset)
+1. What is a histogram?
+A histogram is a graphical representation used to show the frequency distribution of numerical
+data. It helps us understand how the values are spread in the dataset.
+2. Why do we use boxplots?
+Boxplots are used to identify the spread of data and detect outliers. They display minimum
+value, maximum value, median, and quartiles. 
+  3. What are outliers?
+Outliers are the data points that are very far away from the normal range of values. They may
+affect the performance of machine learning models. 4. Why is data visualization important?
+Data visualization helps us understand patterns, trends, and distributions in the dataset before
+applying machine learning algorithms. 5. Which libraries are used in this program?
+Mainly Pandas, Matplotlib, and Seaborn libraries are used for handling and visualizing data. PROGRAM 2 – Correlation Matrix and Pair Plot
+1. What is correlation?
+Correlation shows the relationship between two variables. It tells whether variables move
+together positively or negatively. 2. What is the range of correlation coefficient?
+
+The correlation coefficient ranges from -1 to +1. +1 means strong positive correlation
+
+-1 means strong negative correlation
+
+0 means no correlation
+
+3. What is a heatmap?
+A heatmap is a graphical representation of the correlation matrix using colors to indicate the
+strength of correlation. 4. What is pairplot?
+Pairplot is used to visualize pairwise relationships between multiple features in a dataset. 5. Why do we analyze correlation?
+Correlation analysis helps in feature selection and understanding dependencies between
+variables. PROGRAM 3 – PCA (Principal Component Analysis)
+1. What is PCA?
+PCA is a dimensionality reduction technique used to reduce the number of features while
+preserving important information. 2. Why is PCA used?
+PCA reduces computational complexity and helps in visualizing high-dimensional data.
+
+3. What are principal components?
+Principal components are new variables formed by combining original features in such a way
+that maximum variance is retained. 4. Is PCA supervised or unsupervised?
+PCA is an unsupervised learning technique because it does not use target labels. 5. Why is Iris dataset commonly used?
+The Iris dataset is simple, clean, and widely used for understanding classification and
+dimensionality reduction concepts. PROGRAM 4 – Find-S Algorithm
+1. What is Find-S algorithm?
+Find-S is a concept learning algorithm used to find the most specific hypothesis that fits all
+positive training examples. 2. What type of learning is Find-S?
+It is a supervised learning algorithm. 3. Does Find-S consider negative examples?
+No. Find-S only considers positive examples. 4. What is hypothesis in machine learning?
+A hypothesis is a proposed explanation or rule that maps inputs to outputs. 5. What is the limitation of Find-S?
+It ignores negative examples and may not work properly with noisy data.
+
+PROGRAM 5 – K-Nearest Neighbour (KNN)
+1. What is KNN?
+KNN is a supervised learning algorithm used for classification and regression based on nearest
+data points. 2. What does “K” represent?
+K represents the number of nearest neighbors considered for prediction. 3. How does KNN classify data?
+KNN calculates the distance between points and assigns the class based on majority voting. 4. Which distance measure is commonly used?
+Euclidean distance is commonly used in KNN. 5. What happens if K value is too small?
+The model may become sensitive to noise and overfit the data. PROGRAM 6 – Locally Weighted Regression
+1. What is Locally Weighted Regression?
+It is a non-parametric regression algorithm that fits a curve locally around the query point. 2. Why is it called non-parametric?
+Because it does not assume a fixed form of the model. 3. What is the role of bandwidth parameter?
+
+Bandwidth controls how much influence nearby points have on prediction. 4. What is regression?
+Regression is used to predict continuous numerical values. 5. What is the advantage of locally weighted regression?
+It can model complex and nonlinear relationships effectively. PROGRAM 7 – Linear Regression and Polynomial Regression
+1. What is Linear Regression?
+Linear Regression is used to establish a linear relationship between independent and dependent
+variables. 2. What is Polynomial Regression?
+Polynomial Regression models nonlinear relationships by adding polynomial terms. 3. What is the equation of linear regression?
+The equation is: y=mx+c
+where
+m = slope
+c = intercept
+
+4. What is overfitting in polynomial regression?
+When the model fits training data too closely and performs poorly on new data, it is called
+overfitting.
+
+5. Which dataset is used for polynomial regression in this experiment?
+Auto MPG dataset is commonly used. PROGRAM 8 – Decision Tree Algorithm
+1. What is a Decision Tree?
+A Decision Tree is a supervised learning algorithm used for classification and regression. 
+  2. What are nodes in decision tree?
+Nodes represent conditions or decisions based on feature values. 3. What is root node?
+The topmost node of the tree is called the root node. 4. What is entropy?
+Entropy measures the impurity or randomness in the dataset. 5. What is information gain?
+Information gain measures how well a feature separates the data into classes. PROGRAM 9 – Naive Bayes Classifier
+1. What is Naive Bayes algorithm?
+Naive Bayes is a probabilistic classifier based on Bayes theorem. 2. Why is it called “naive”?
+Because it assumes all features are independent of each other.
+
+3. What is Bayes theorem?
+Bayes theorem calculates conditional probability using prior knowledge. 4. What are the advantages of Naive Bayes?
+It is simple, fast, and works well for large datasets. 5. Where is Naive Bayes commonly used?
+It is commonly used in spam filtering, text classification, and face recognition. PROGRAM 10 – K-Means Clustering
+1. What is K-Means clustering?
+K-Means is an unsupervised learning algorithm used to group similar data points into clusters. 2. What does “K” represent?
+K represents the number of clusters. 3. What is centroid?
+Centroid is the center point of a cluster. 4. Is K-Means supervised or unsupervised?
+K-Means is an unsupervised learning algorithm. 5. What is the main objective of K-Means?
+The objective is to minimize the distance between data points and their cluster centroids.
